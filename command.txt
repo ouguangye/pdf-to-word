@@ -1,0 +1,3 @@
+pyinstaller -F -w -i ./icon.png main.py  --collect-all ttkbootstrap
+
+pyinstaller -D -w -i ./icon.png main.py  --collect-all ttkbootstrap
